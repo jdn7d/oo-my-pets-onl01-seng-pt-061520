@@ -41,4 +41,10 @@ end
 def feed_cats
   self.cats.each { |cat| cat.mood = "happy" }
 end
+def sell_pets
+  all_pets = self.cats + self.dogs	
+       all_pets.each do |pet|	
+         pet.mood = "nervous" pet.owner = nil}
+end
+
 end
