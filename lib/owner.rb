@@ -50,7 +50,7 @@ end
 def list_pets
  dogs = self.dogs.count
  cats = self.cats.count
-  return "I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
+  return "I have #{dogs} dog(s), and #{cats} cat(s)."
 end
 end
 
