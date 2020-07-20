@@ -4,7 +4,7 @@ class Cat
   #attr_writer :owner
   attr_reader :name
 
-  def initialize(name, mood )
+  def initialize(name, owner )
     @name = name
    @owner = owner
   mood = "nervous"
