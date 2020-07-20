@@ -29,6 +29,6 @@ Cat.all.select{|c| c.owner == self}
     Dog.all.select{|d| d.owner == self}
   end
   def buy_cat
-    
+
   end
 end
