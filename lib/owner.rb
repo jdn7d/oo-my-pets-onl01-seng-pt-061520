@@ -48,8 +48,9 @@ def sell_pets
          pet.owner = nil
 end
 def list_pets
-  all_pets = self.cats + self.dogs
-
+ dogs = self.dogs.count
+ cats = self.cats.count
+  return "I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
 end
 end
 
