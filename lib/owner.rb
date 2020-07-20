@@ -9,10 +9,7 @@ class Owner
    @species = "human"
    @@all << self
  end
- def owner=(owner)
-  @owner = owner
-
-end
+ 
  def say_species
    "I am a #{self.species}."
  end
@@ -24,6 +21,9 @@ end
  end
  def self.reset_all
   self.all.clear
+end
+def cats
+  self.all
 end
 
 end
