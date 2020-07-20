@@ -28,4 +28,7 @@ Cat.all.select{|c| c.owner == self}
   def dogs
     Dog.all.select{|d| d.owner == self}
   end
+  def buy_cat
+    
+  end
 end
