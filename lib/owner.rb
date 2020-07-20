@@ -48,8 +48,8 @@ def sell_pets
          pet.owner = nil
 end
 def list_pets
-  all_pets = self.cats + self.dogs	
-       
+  all_pets = self.cats + self.dogs
+
 end
 end
 
